@@ -4,5 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/blubrandi/webauth-iii-challenge.git",
   "author": "blubrandi <blubrandi0@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.18.0",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.7"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
