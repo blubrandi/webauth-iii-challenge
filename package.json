@@ -1,0 +1,8 @@
+{
+  "name": "webauth-iii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/blubrandi/webauth-iii-challenge.git",
+  "author": "blubrandi <blubrandi0@gmail.com>",
+  "license": "MIT"
+}
