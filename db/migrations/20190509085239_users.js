@@ -16,7 +16,6 @@ exports.up = function (knex, Promise) {
             .string('department', 128)
             .notNullable()
     })
-
 };
 
 exports.down = function (knex, Promise) {
