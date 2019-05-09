@@ -13,7 +13,7 @@ exports.up = function (knex, Promise) {
             .notNullable()
 
         users
-            .string('department, 128')
+            .string('department', 128)
             .notNullable()
     })
 
