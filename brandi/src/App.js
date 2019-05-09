@@ -16,9 +16,9 @@ function App(props) {
   return (
     <div className="App">
       <header>
-        <NavLink to='/login'>Login</NavLink> |
-      <NavLink to='/users'>Users</NavLink> | 
-        <NavLink onClick={logout}>Logout</NavLink>
+        <NavLink to='/login'> Login</NavLink> |
+      <NavLink to='/users'> Users</NavLink> |
+        <div onClick={logout}> Logout</div>
       </header>
       <h1>Hey there from React app!</h1>
       <main>
