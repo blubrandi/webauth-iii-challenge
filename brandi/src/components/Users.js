@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 
-import requiresAuth from '../auth/requiresAuth'
+import requiresAuth from './auth/requiresAuth'
 
 class Users extends React.Component {
     state = {
