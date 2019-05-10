@@ -10,8 +10,10 @@ router.post('/register', (req, res) => {
     const hash = bcrypt.hashSync(user.password, 10); // 2 ^ n
     user.password = hash;
 
+    const token = generateToken(user)
     Users.add(user)
         .then(saved => {
+            saved.token = token
             res.status(201).json(saved);
         })
         .catch(error => {
